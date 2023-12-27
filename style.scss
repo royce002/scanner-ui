@@ -1,0 +1,99 @@
+// QR READER
+// hide info bubble
+#qr-reader>div:nth-child(1)>img {
+    display: none;
+}
+
+#qr-reader {
+    margin-top: 1rem !important;
+}
+
+// #qr-reader {
+//     width: 100vw;
+//     max-width: 768px;
+//     margin: 0 auto;
+// }
+
+.html5-qrcode-element {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #212529;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    // background-image:
+    background-color: transparent;
+    margin-bottom: 1rem !important;
+}
+
+#html5-qrcode-button-camera-start {
+    color: #198754;
+    border-color: #198754;
+
+    &:hover {
+        color: #fff;
+        background-color: #198754;
+        border-color: #198754;
+    }
+}
+
+#html5-qrcode-anchor-scan-type-change,
+#html5-qrcode-button-camera-permission {
+    color: #212529;
+    border-color: #212529;
+    text-decoration: none !important;
+
+    &:hover {
+        color: #fff;
+        background-color: #212529;
+        border-color: #212529;
+    }
+}
+
+#html5-qrcode-button-camera-stop {
+    text-transform: uppercase;
+    color: #dc3545;
+    border-color: #dc3545;
+
+    // background-color: #dc3545;
+    &:hover {
+
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+
+    }
+}
+
+#html5-qrcode-select-camera {
+    border-color: #212529;
+    display: block;
+    width: calc(100% - 40px);
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    // background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    appearance: none;
+    margin:0 20px;
+}
